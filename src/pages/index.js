@@ -13,6 +13,7 @@ import ipad from '../assets/images/ipad.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
+import TimetableSection from '../components/sections/timetable';
 
 const IndexPage = () => (
   <Layout>
@@ -34,6 +35,8 @@ const IndexPage = () => (
       </div>
     </header>
 
+
+
     <section id="about" className="about-section text-center">
       <div className="container">
         <div className="row">
@@ -52,6 +55,8 @@ const IndexPage = () => (
         <img src={ipad} className="img-fluid" alt="" />
       </div>
     </section>
+
+    <TimetableSection />
 
     <section id="projects" className="projects-section bg-light">
       <div className="container">
