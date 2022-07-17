@@ -68,7 +68,23 @@ export default class Header extends Component {
                   element="about"
                 >
                   <a className="nav-link" href="#about">
-                    About
+                    <button className="btn">
+                      About
+                    </button>
+                  </a>
+                </Scroll>
+              </li>              
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="timetable"
+                  offset={-110}
+                >
+                  <a className="nav-link" href="#timetable">
+                    <button className="btn">
+                      Classes &amp; Schedule
+                    </button>
                   </a>
                 </Scroll>
               </li>
@@ -76,10 +92,12 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="timetable"
+                  element="contact"
                 >
-                  <a className="nav-link" href="#timetable">
-                    Classes &amp; Schedule
+                  <a className="nav-link" href="#contact">
+                    <button className="btn">
+                      Contact
+                    </button>
                   </a>
                 </Scroll>
               </li>
@@ -90,7 +108,9 @@ export default class Header extends Component {
                   element="signup"
                 >
                   <a className="nav-link" href="#signup">
-                    Contact
+                  <button className="btn btn-primary">
+                    Sign-up
+                  </button>
                   </a>
                 </Scroll>
               </li>
