@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Grayscale', // <title>
+  siteTitle: 'Roger Gracie Academy', // <title>
   manifestName: 'Grayscale',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -8,13 +8,13 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Roger Gracie Academy',
+  subHeading: 'Brazilian Jiu-Jitsu Academy, Darlington.  ',
 
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
+      icon: 'fa fa-instagram',
       name: 'Github',
       url: 'https://github.com/anubhavsrivastava',
     },
@@ -34,7 +34,7 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'rgadarlington@gmail.com',
+  phone: '+44 7763 364 206',
+  address: 'Unit 9, Code Business Estate, Henson Road, Darlington, DL1 4NZ',
 };
